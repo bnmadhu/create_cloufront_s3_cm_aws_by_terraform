@@ -1,31 +1,28 @@
 variable "Region" {
-  default = "eu-west-1"
+  default = "YOU-REGION"
 }
 variable "Name" {
-  default = "test-joel-gucci.com"
+  default = "NAME-CLOUDFRONT-BUCKET-CM"
 }
 variable "Project" {
-  default = "test8-joel-gucci.com"
+  default = "YOUR-PROJECT"
 }
 variable "Env" {
-  default = "Prod"
+  default = "YOUR-ENV"
 }
 variable "TeamName" {
-  default = "Cid"
+  default = "YOUR-TEAMNAME"
 }
 variable "Application" {
-  default = "Cid"
+  default = "YOUR-APPLICATION"
 }
 variable "Owner" {
-  default = "micael.barilaro@gucci.com"
+  default = "YOUR-OWNER"
 }
 
 variable "Origin" {
-  default = "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E3L7RC9QS5XPDZ"
+  default = "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity YOUR-ORIGIN"
 }
 variable "origin_access_identity" {
-  default = "origin-access-identity/cloudfront/E3L7RC9QS5XPDZ"
+  default = "origin-access-identity/cloudfront/YOUR-ACCESS-IDENTITY"
 }
-
-
-
